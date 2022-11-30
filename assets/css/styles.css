@@ -1,1 +1,67 @@
 @import "./normalize.css";
+
+:root {
+	--mainImage: url("/assets/img/metallica.webp");
+}
+
+body {
+	position: relative;
+
+	background: var(--mainImage) no-repeat center;
+	background-size: cover;
+}
+
+.block {
+	width: 250px;
+	height: 150px;
+
+	aspect-ratio: 250/150;
+
+	background: var(--mainImage);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 0 15px 8px rgba(255, 150, 150, 50%);
+}
+
+.block_top_right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.block_center {
+	width: 45%;
+	height: auto;
+
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.block_center_row {
+	width: 1350px;
+
+	position: absolute;
+	top: 50%;
+	left: 0;
+
+	background-size: contain;
+	background-repeat: repeat-x;
+	background-position: left;
+}
+
+.block_bottom_left {
+	width: 150px;
+	height: 50%;
+
+	position: absolute;
+	top: 50%;
+	left: 0;
+
+	background-size: contain;
+	background-repeat: repeat-y;
+	background-position: top;
+	z-index: -1;
+}
