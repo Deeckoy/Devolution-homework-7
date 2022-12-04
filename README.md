@@ -2,4 +2,4 @@
 
 ## Homework 7. **CSS Background**
 
-Github Pages link: [`Click here`](https://deeckoy.github.io/Devolution-Homework-7/)
+Github Pages link: [`Click here`](https://deeckoy.github.io/Devolution-homework-7/)
