@@ -1,7 +1,7 @@
 @import "./normalize.css";
 
 :root {
-	--mainImage: url("/assets/img/metallica.webp");
+	--mainImage: url("https://deeckoy.github.io/Devolution-homework-7/assets/img/metallica.webp");
 }
 
 body {
